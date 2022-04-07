@@ -1,0 +1,64 @@
+.container-section{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.section-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+.div-yellow{
+    width: 33%;
+    background-color: rgb(241, 241, 126);
+    
+}
+.div-blue{
+    width: 67%;
+    background-color: rgb(86, 86, 240);
+
+}
+
+.name-title{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.font-title{
+    color: rgb(183, 244, 108);
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.competence-title{
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.mini-description{
+    font-size:12px;
+    width: 300px; 
+    color: white;
+    font-weight: bold;  
+}
+
+.large-description{
+    display: flex;
+    
+}
