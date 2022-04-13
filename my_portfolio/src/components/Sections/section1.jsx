@@ -46,7 +46,7 @@ function Section1(){
                 </div>
 
                 <div className="div-yellow">
-                  <img src={imagep} alt="Image personnel" />
+                  <img src={imagep} alt="Image personnel" className="img-pers" />
 
 
                 </div>

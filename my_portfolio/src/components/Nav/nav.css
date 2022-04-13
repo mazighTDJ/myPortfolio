@@ -2,4 +2,34 @@
     position: fixed;
     top: 6vh;
     right: 10vw;
+    width: auto;
+}
+.element-hidden{
+   display: none;
+}
+
+.element-show{
+    position: absolute;
+    top: -2vh;
+    right: -0.5vw;
+    background-color: white;
+    width: 20vw;
+    height: auto;
+    z-index: 998;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+
+.btn-annuler{
+    position: relative;
+    left: 17vw;
+    top: 5vh;
+}
+
+@media  screen and (max-width:550px) {
+   .element-show{
+    width: 50vw;
+   }
+    
 }

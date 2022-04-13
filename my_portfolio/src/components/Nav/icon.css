@@ -1,16 +1,17 @@
 .ligne1{
     width: 3vw;
-    border-top: 1px solid blue;
+    border-top: 2.5px solid blue;
     margin-bottom: 1.5vh;
 }
 .ligne2{
   
     width: 4vw;
-    border-top: 1px solid blue;
+    border-top: 2.5px solid blue;
 }
 
 .icon{
    transform: rotate(180deg);
+   
 }
 
 @media  screen and (max-width:550px) {

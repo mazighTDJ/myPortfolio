@@ -1,10 +1,10 @@
 import React from "react";
 import './icon.css'
 
-function Icon(){
+function Icon({functionElement}){
 
     return (
-        <div className="icon">
+        <div className="icon" onClick={functionElement}>
             <div className="ligne1"></div>
             <div className="ligne2"></div>
         </div>
