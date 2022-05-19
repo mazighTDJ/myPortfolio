@@ -8,28 +8,94 @@
    display: none;
 }
 
+
 .element-show{
     position: absolute;
     top: -2vh;
     right: -0.5vw;
-    background-color: white;
-    width: 20vw;
+    background: rgba(232, 232, 232, 0.936) linear-gradient(90deg, rgba(217, 217, 226, 1) 54%, rgba(255, 255, 255, 1) 82%, rgb(222, 221, 221) 100%);
     height: auto;
+    min-height: 35vh;
     z-index: 998;
     border-radius: 5px;
-    transition: 0.3s;
-    
+    transition: all 0.5s ;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width:auto;
 }
 
 .btn-annuler{
     position: relative;
-    left: 17vw;
-    top: 5vh;
+    top: 2vh;
+    right: 15px;
+    cursor: pointer;
 }
 
-@media  screen and (max-width:550px) {
-   .element-show{
-    width: 50vw;
-   }
-    
+.nav-group{
+    margin-top: 8vh;
+    padding: 35px;
+    font-size: 18px;
+}
+.nav-item, .nav-item-inactif{
+    list-style: none;
+    width:auto;
+    height: 70px;
+    margin-bottom: 2px;
+    font-family:"Bell MT";
+    color: #4831d4;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.nav-item:hover{
+    border-radius: 8px;
+    background-color: #fcecec;
+    border: 1px solid rgba(181, 181, 183,0.3);
+
+}
+.nav-item-icon{
+    list-style: none;
+    display: flex;
+    justify-content:  space-evenly;
+    position: relative;
+    top:50px;
+
+}
+
+.nav-item-icon img{
+    cursor: pointer;
+}
+
+
+
+@keyframes spanFadIn{
+  
+    100%{
+        transform: translateX(-10%);
+    }
+}
+
+@media  screen and (max-width:580px) {
+    .element-show{
+        position: fixed;
+        height: 100%;
+        width: 93%;
+        right:2vw;
+        
+    }
+    .btn-annuler{
+        top:40px;
+        right:50px;
+    }
+    .nav-group{
+        position: relative;
+        left: 6vw;
+        
+    }
+    .nav-item{
+        font-size: 4vw;
+    }
 }

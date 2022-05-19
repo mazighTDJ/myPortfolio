@@ -1,21 +1,27 @@
-.ligne1{
+.ligne1 {
     width: 3vw;
     border-top: 2.5px solid blue;
     margin-bottom: 1.5vh;
 }
-.ligne2{
-  
+
+.ligne2 {
+
     width: 4vw;
     border-top: 2.5px solid blue;
 }
 
-.icon{
-   transform: rotate(180deg);
-   
+.icon {
+   cursor: pointer;
+}
+.icon:hover{
+    transform: translateX(3%);
 }
 
-@media  screen and (max-width:550px) {
-    .ligne1,.ligne2{
+
+@media screen and (max-width:750px) {
+
+    .ligne1,
+    .ligne2 {
         border-color: yellow;
     }
 

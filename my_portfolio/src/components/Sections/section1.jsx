@@ -1,9 +1,10 @@
 import React from "react";
-import imagep from './image.jpg'
+import imagep from './image.svg'
 import Nav from "../Nav/Nav";
 import './section1.css'
 
 function Section1(){
+
 
     return (
         <section className="section-1">
@@ -21,12 +22,7 @@ function Section1(){
                                     <p>Solides compétences <br />en développment Web Full-Stack </p>
                                 </div>
                             </div>
-
-                           
                         </div>
-
-
-
 
                         <div className="large-description">
                             <div>
@@ -46,9 +42,7 @@ function Section1(){
                 </div>
 
                 <div className="div-yellow">
-                  <img src={imagep} alt="Image personnel" className="img-pers" />
-
-
+                  <img src={imagep}  alt="Image personnel" className="img-pers" />
                 </div>
             </section>
 
